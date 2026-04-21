@@ -14,7 +14,8 @@ export default function Works() {
       <div className="grid lg:grid-cols-2 text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:text-left">
         <Worksframe title="災害情報お知らせアプリ" image="/images/disaster-info.png" worklink="https://disaster-info-6cpa.onrender.com/" codelink="https://github.com/koppepam/disaster-info">
           <p className="mt-10 lg:max-w-[55ch] w-full text-sm opacity-50">
-            N予備校Webアプリケーションコンテスト2023冬　学園部門<br/>優秀賞受賞<br/>災害情報をお知らせします。気象庁防災情報XMLフォーマットをもとに作成。<br className="md:hidden"/>LINEログイン機能・LINE bot付き。<br/>※データベースの無料期間終了に伴い、一部の機能を停止しました。
+            N予備校Webアプリケーションコンテスト2023冬　学園部門<br/>優秀賞受賞<br/>災害情報をお知らせします。気象庁防災情報XMLフォーマットをもとに作成。<br className="md:hidden"/>LINEログイン機能・LINE bot付き。<br/>
+            ※データベースの無料期間終了に伴い、一部の機能を停止しました。Renderの無料プランを使用しているため、初回アクセス時に表示まで時間がかかる場合があります。
           </p>
           <div className="lg:max-w-[55ch] w-full m-2 space-x-1 flex">
             <img src="/images/typescript-icon.svg" alt="TypeScript" className="size-10"/>
