@@ -24,10 +24,8 @@ export default function Skills() {
             <li>JavaScript</li>
             <li>TypeScript</li>
             <li>SQL</li>
-            <li>PHP→WordPressで触れたことがある程度
-            </li>
-            <li>Java→勉強中
-            </li>
+            <li>PHP</li>
+            <li>Java(しばらく使ってないのでキャッチアップが必要)</li>
             <li>Markdown</li>
           </ul>
         </div>
