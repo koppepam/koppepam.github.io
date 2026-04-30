@@ -56,6 +56,7 @@ export default function Skills() {
           <ul>
             <li>PostgreSQL</li>
             <li>MySQL</li>
+            <li>MongoDB</li>
             <li>WordPress</li>
             <li>Adobe Photoshop/XD→学校で触れた程度
             </li>
