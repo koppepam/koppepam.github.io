@@ -75,7 +75,7 @@ export default function Works() {
           </div>
         </Worksframe>
 
-        <Worksframe title="ポートフォリオ" image="" worklink="https://portfolio-17455.web.app/" codelink="https://github.com/koppepam/portfolio">
+        <Worksframe title="ポートフォリオ" image="" worklink="https://rise-yoneyama.me/" codelink="https://github.com/koppepam/koppepam.github.io">
           <p className="m-0 lg:max-w-[55ch] w-full text-sm opacity-50">
             このポートフォリオサイトです。
           </p>
@@ -84,7 +84,7 @@ export default function Works() {
             <img src="/images/react.svg" alt="React" className="size-10"/>
             <img src="/images/nextjs-icon.svg" alt="Next.js" className="size-10"/>
             <img src="/images/tailwindcss-icon.svg" alt="Tailwind CSS" className="size-10"/>
-            <img src="/images/firebase.svg" alt="Firebase" className="size-10"/>
+            <img src="/images/github-icon.svg" alt="GitHub" className="size-10"/>
           </div>
         </Worksframe>
       </div>
