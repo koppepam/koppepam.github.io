@@ -24,8 +24,8 @@ export default function Skills() {
             <li>JavaScript</li>
             <li>TypeScript</li>
             <li>SQL</li>
-            <li>PHP</li>
-            <li>Java(しばらく使ってないのでキャッチアップが必要)</li>
+            <li>PHP(キャッチアップが必要)</li>
+            <li>Java(キャッチアップが必要)</li>
             <li>Markdown</li>
           </ul>
         </div>
