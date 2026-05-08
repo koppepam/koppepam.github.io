@@ -27,6 +27,11 @@ export default function AboutMe() {
           業務全般において Docker, Node.js, Markdown, Git, GitHub, Slack を使用。
         </dd>
       </dl>
+      <p style={text}><i className="bi bi-award" style={icon}></i>資格</p>
+      <ul style={text}>
+        <li>2025/05　基本情報技術者試験 合格</li>
+        <li>2025/12　応用情報技術者試験 合格</li>
+      </ul>
     </div>
   );
 }
