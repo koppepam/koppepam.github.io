@@ -31,6 +31,7 @@ export default function AboutMe() {
       <ul style={text}>
         <li>2025/05　基本情報技術者試験 合格</li>
         <li>2025/12　応用情報技術者試験 合格</li>
+        <li className="text-sm">現在は、情報処理安全確保支援士試験の勉強をしています。</li>
       </ul>
     </div>
   );
