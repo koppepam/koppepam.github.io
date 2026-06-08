@@ -38,7 +38,7 @@ export default function Skills() {
             <li>Prisma</li>
             <li>Webpack</li>
             <li>BootStrap</li>
-            <li>TainwindCSS</li>
+            <li>Tailwind CSS</li>
           </ul>
         </div>
         <div className="js-show-on-scroll py-3 space-y-3">
