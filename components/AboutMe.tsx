@@ -20,14 +20,14 @@ export default function AboutMe() {
           業務全般において Docker, Node.js, Git, GitHub, Slack を使用。<br/>
           2024/06　退社
         </dd>
-        <dt style={text}>2024/07　株式会社ドワンゴ アルバイト入社</dt>
+        <dt style={text} className="mt-3">2024/07　株式会社ドワンゴ アルバイト入社</dt>
         <dd className="mx-2 text-sm">
           ZEN Studyのプログラミング教材制作業務に従事。<br/>
           主に Web アプリケーション開発教材の更新・改善を担当。<br/>
           業務全般において Docker, Node.js, Markdown, Git, GitHub, Slack を使用。
         </dd>
       </dl>
-      <p style={text}><i className="bi bi-award" style={icon}></i>資格</p>
+      <p style={text} className="mt-5"><i className="bi bi-award" style={icon}></i>資格</p>
       <ul style={text}>
         <li>2025/05　基本情報技術者試験 合格</li>
         <li>2025/12　応用情報技術者試験 合格</li>
