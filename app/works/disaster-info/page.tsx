@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function DisasterInfoPage() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between md:px-24 pt-24 pb-24">
+    <main className="flex min-h-screen flex-col items-center justify-between lg:mx-0 mx-10 md:px-24 pt-24 pb-24">
       <div className="w-full max-w-4xl">
         <Link href="/#works" className="text-emerald-500 hover:underline mb-8 inline-block">
           ← 戻る
