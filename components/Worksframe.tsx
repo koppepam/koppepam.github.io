@@ -7,7 +7,7 @@ type Props = {
   title: string;
   worklink: string;
   codelink: string;
-  detailLink: string;
+  detailLink?: string;
   children: React.ReactNode; // 説明とロゴ
 }
 
@@ -22,12 +22,16 @@ export default function Worksframe(props: Props) {
       </h2>
       {images(props)}
       {props.children}
-      <div className="flex items-center justify-between m-5">
-        <Link href={props.detailLink}
-          className="badge badge-outline badge-accent hover:bg-accent hover:text-white transition-colors">
-          詳細を見る →
-        </Link>
-        <div className="flex gap-3">
+      <div className="flex items-center m-5">
+        {(props.detailLink != undefined) &&
+           (
+            <Link href={props.detailLink}
+              className="badge badge-outline badge-accent hover:bg-accent hover:text-white transition-colors">
+              詳細を見る →
+            </Link>
+          )
+        }
+        <div className="flex gap-3 ml-auto">
           {links(props)}
         </div>
       </div>
@@ -49,35 +53,35 @@ const links = (props: Props) => {
     return (
       <>
         <div className="tooltip" data-tip="ページを開く">
-          <a href={props.worklink} target="_blank" rel="noopener noreferrer"
+          <Link href={props.worklink} target="_blank" rel="noopener noreferrer"
             className="btn btn-sm btn-circle btn-outline btn-info">
             <i className="bi bi-globe"></i>
-          </a>
+          </Link>
         </div>
         <div className="tooltip" data-tip="ソースコードを開く">
-          <a href={props.codelink} target="_blank" rel="noopener noreferrer"
+          <Link href={props.codelink} target="_blank" rel="noopener noreferrer"
             className="btn btn-sm btn-circle btn-outline btn-neutral">
             <i className="bi bi-github"></i>
-          </a>
+          </Link>
         </div>
       </>
     );
   } else if (props.worklink != "" && props.codelink == "") {
     return (
       <div className="tooltip" data-tip="ページを開く">
-        <a href={props.worklink} target="_blank" rel="noopener noreferrer"
+        <Link href={props.worklink} target="_blank" rel="noopener noreferrer"
           className="btn btn-sm btn-circle btn-outline btn-info">
           <i className="bi bi-globe"></i>
-        </a>
+        </Link>
       </div>
     );
   } else if (props.worklink == "" && props.codelink != "") {
     return (
       <div className="tooltip" data-tip="ソースコードを開く">
-        <a href={props.codelink} target="_blank" rel="noopener noreferrer"
+        <Link href={props.codelink} target="_blank" rel="noopener noreferrer"
           className="btn btn-sm btn-circle btn-outline btn-neutral">
           <i className="bi bi-github"></i>
-        </a>
+        </Link>
       </div>
     );
   }
