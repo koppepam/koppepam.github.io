@@ -27,7 +27,7 @@ export default function Worksframe(props: Props) {
 const images = (props: Props) => {
   if (props.image != "") {
     return (
-      <img src={props.image} alt="サンプルイメージ" className="w-full h-50" />
+      <img src={props.image} alt="サンプルイメージ" className="mx-auto h-50" />
     );
   }
   return <></>

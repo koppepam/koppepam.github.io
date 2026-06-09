@@ -37,17 +37,17 @@ export default async function Contact() {
           <form id="contactForm" onSubmit={sendContent} >
             <div>
               お名前
-              <input className="bg-gray-200 appearance-none border-2 border-gray-400 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+              <input className="bg-gray-200 appearance-none border-2 border-gray-400 rounded-sm w-full py-2 px-4 text-gray-700 leading-tight focus:outline-hidden focus:bg-white focus:border-purple-500"
                 type="text" name="name" id="name" placeholder="お名前を入力してください" />
             </div>
             <div>
               メールアドレス
-              <input className="bg-gray-200 appearance-none border-2 border-gray-400 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+              <input className="bg-gray-200 appearance-none border-2 border-gray-400 rounded-sm w-full py-2 px-4 text-gray-700 leading-tight focus:outline-hidden focus:bg-white focus:border-purple-500"
                 type="email" name="email" id="email" placeholder="メールアドレスを入力してください" />
             </div>
             <div>
               お問い合わせ内容
-              <textarea className="bg-gray-200 appearance-none border-2 border-gray-400 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+              <textarea className="bg-gray-200 appearance-none border-2 border-gray-400 rounded-sm w-full py-2 px-4 text-gray-700 leading-tight focus:outline-hidden focus:bg-white focus:border-purple-500"
                 name="content" id="content" rows={10} placeholder="お問い合わせ内容を入力してください" ></textarea>
             </div>
             <button className="rounded-2xl bg-sky-400 hover:bg-sky-600 text-white p-3 mr-3"
