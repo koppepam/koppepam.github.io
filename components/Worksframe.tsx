@@ -27,7 +27,7 @@ export default function Worksframe(props: Props) {
            (
             <Link href={props.detailLink}
               className="badge badge-outline badge-accent hover:bg-accent hover:text-white transition-colors">
-              詳細を見る →
+              詳細を見る -&gt;
             </Link>
           )
         }

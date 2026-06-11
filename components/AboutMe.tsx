@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function AboutMe() {
   const icon = {fontSize: "1.5rem", marginRight: "0.3rem"};
   const text = {fontSize: "1.2rem"};
@@ -5,7 +7,7 @@ export default function AboutMe() {
   return (
     <div className="js-show-on-scroll lg:w-1/2 lg:mx-0 mx-10">
       <h2 className="text-xl">ヨネヤマ リセ</h2>
-      <div className="flex items-strech my-3 space-x-2 place-content-center lg:place-content-start">
+      <div className="flex items-stretch my-3 space-x-2 place-content-center lg:place-content-start">
         <a href="https://github.com/koppepam" target="_blank" rel="noopener noreferrer"><img src="/images/github-icon.svg" alt="GitHub" className="size-10"/></a>
         <a href="https://qiita.com/koppepam" target="_blank" rel="noopener noreferrer"><img src="/images/favicon.png" alt="Qiita" className="size-10"/></a>
       </div>
@@ -27,6 +29,9 @@ export default function AboutMe() {
           業務全般において Docker, Node.js, Markdown, Git, GitHub, Slack を使用。
         </dd>
       </dl>
+      <Link href="/career" className="badge badge-outline badge-accent hover:bg-accent hover:text-white transition-colors mt-3">
+        経歴の詳細を見る -&gt;
+      </Link>
       <p style={text} className="mt-5"><i className="bi bi-award" style={icon}></i>資格</p>
       <ul style={text}>
         <li>2025/05　基本情報技術者試験 合格</li>
