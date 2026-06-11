@@ -64,7 +64,9 @@ export default function DisasterInfoPage() {
           <p className="text-base leading-relaxed mb-4">
             気象庁の防災情報 XML フォーマットをもとに、災害情報をリアルタイムで通知するWebアプリケーションです。LINE ログイン後は、登録した地域の災害情報を LINE Bot で通知します。
             <br />
-            TypeScript・React・Next.js を初めて用いて制作し、静的型付けやコンポーネント分割を活かして実装しました。<br />
+            上京を控え、今後離れて暮らす家族の周囲で起きている災害の状況を知ることができれば、少しでも安心につながるのではないかと考え、「登録した地域の災害情報を継続的に受け取れるアプリ」をテーマに制作しました。
+            <br /><br />
+            実装には、初めて TypeScript・React・Next.js を採用し、静的型付けやコンポーネント分割を活かして開発しました。<br />
             また、Google Apps Script では気象庁の災害情報を自動取得する処理と、LINE Bot による通知を実装し、単なる閲覧用アプリではなく、利用者ごとに必要な情報を届けられる構成にしています。
           </p>
           <p className="text-base leading-relaxed mb-4 bg-secondary-content">
