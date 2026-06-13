@@ -40,8 +40,7 @@ export default function Works() {
           </div>
         </Worksframe>
 
-        {/* "detailLink="/works/favo-log-1 */}
-        <Worksframe title="お気に入り記録１" image="/images/favolog1.png" worklink="" codelink="https://github.com/koppepam/favo-log">
+        <Worksframe title="お気に入り記録１" image="/images/favolog1.png" worklink="" codelink="https://github.com/koppepam/favo-log" detailLink="/works/favo-log-1">
           <p className="mt-5 lg:max-w-[55ch] w-full text-sm opacity-50">
             N予備校Webアプリケーションコンテスト2022冬<br/>N・S高等学校部門　健闘賞受賞<br/>お気に入りを記録・共有できます。フレームワークは使用せずに作成しました。
           </p>
