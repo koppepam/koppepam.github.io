@@ -28,6 +28,15 @@ export default function AboutMe() {
           主に Web アプリケーション開発教材の更新・改善を担当。<br/>
           業務全般において Docker, Node.js, Markdown, Git, GitHub, Slack を使用。
         </dd>
+        <dt style={text} className="mt-3">2026/08　ウェルスナビ株式会社 インターンシップ参加</dt>
+        <dd className="mx-2 text-sm">
+          5日間のコーポレートITインターンシップに参加。
+        </dd>
+        <dt style={text} className="mt-3">2026/09　富士通株式会社 長期インターンシップ参加</dt>
+        <dd className="mx-2 text-sm">
+          金融領域の大規模モダナイプロジェクトにて、ソリューションエンジニア（SE）の業務を経験。<br/>
+          2026/11末まで参加予定。
+        </dd>
       </dl>
       <Link href="/career" className="badge badge-outline badge-accent hover:bg-accent hover:text-white transition-colors mt-3">
         経歴の詳細を見る -&gt;
